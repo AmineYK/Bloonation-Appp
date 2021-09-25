@@ -77,7 +77,7 @@ public class FenBanqueDeSangAffichage extends JFrame {
 		super.setUndecorated(true);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
-		ImageIcon obj1 = new ImageIcon("C:\\Users\\Belinfo\\Bureau\\Amine YK\\Amine YK\\Amine YKh\\amine\\Bloonation Ressources\\transfuse_38039.png");
+		ImageIcon obj1 = new ImageIcon(getClass().getResource("/Icones/transfuse_38039.png"));
 		super.setIconImage(obj1.getImage());
 
 		setContentPane(contentPane);
@@ -246,11 +246,11 @@ public class FenBanqueDeSangAffichage extends JFrame {
 				dispose();
 			}
 		});
-		label_1.setIcon(new ImageIcon("C:\\Users\\m2k\\Desktop\\Amine YKh\\amine\\Travaux \u00E0 faire\\PROJET TP GL2\\arrow-address-back_icon-icons.com_54065.png"));
+		label_1.setIcon(new ImageIcon(getClass().getResource("/Icones/arrow-address-back_icon-icons.com_54065.png")));
 		label_1.setBounds(10, 0, 59, 39);
 		paneldonneur.add(label_1);
 		JLabel labelA = new JLabel("");
-		labelA.setIcon(new ImageIcon("C:\\Users\\m2k\\Desktop\\Amine YKh\\amine\\Travaux \u00E0 faire\\PROJET TP GL2\\12.png"));
+		labelA.setIcon(new ImageIcon(getClass().getResource("/Icones/12.png")));
 		labelA.setBounds(-21, 0, 886, 421);
 		paneldonneur.add(labelA);
 		
@@ -283,11 +283,11 @@ public class FenBanqueDeSangAffichage extends JFrame {
 				dispose();
 			}
 		});
-		label_2.setIcon(new ImageIcon("C:\\Users\\m2k\\Desktop\\Amine YKh\\amine\\Travaux \u00E0 faire\\PROJET TP GL2\\arrow-address-back_icon-icons.com_54065.png"));
+		label_2.setIcon(new ImageIcon(getClass().getResource("/Icones/arrow-address-back_icon-icons.com_54065.png")));
 		label_2.setBounds(10, 0, 59, 39);
 		panelconsultations.add(label_2);
 		JLabel labelB = new JLabel("");
-		labelB.setIcon(new ImageIcon("C:\\Users\\m2k\\Desktop\\Amine YKh\\amine\\Travaux \u00E0 faire\\PROJET TP GL2\\12.png"));
+		labelB.setIcon(new ImageIcon(getClass().getResource("/Icones/12.png")));
 		labelB.setBounds(-21, 0, 886, 421);
 		panelconsultations.add(labelB);
 		
@@ -320,7 +320,7 @@ public class FenBanqueDeSangAffichage extends JFrame {
 				dispose();
 			}
 		});
-		label_23.setIcon(new ImageIcon("C:\\Users\\m2k\\Desktop\\Amine YKh\\amine\\Travaux \u00E0 faire\\PROJET TP GL2\\arrow-address-back_icon-icons.com_54065.png"));
+		label_23.setIcon(new ImageIcon(getClass().getResource("/Icones/arrow-address-back_icon-icons.com_54065.png")));
 		label_23.setBounds(10, 0, 59, 39);
 		paneldonneur.add(label_23);
 		
@@ -334,12 +334,12 @@ public class FenBanqueDeSangAffichage extends JFrame {
 				dispose();
 			}
 		});
-		label_3.setIcon(new ImageIcon("C:\\Users\\m2k\\Desktop\\Amine YKh\\amine\\Travaux \u00E0 faire\\PROJET TP GL2\\arrow-address-back_icon-icons.com_54065.png"));
+		label_3.setIcon(new ImageIcon(getClass().getResource("/Icones/arrow-address-back_icon-icons.com_54065.png")));
 		label_3.setBounds(10, 0, 59, 39);
 		paneldons.add(label_3);
 		JLabel labelC = new JLabel("");
-		labelC.setIcon(new ImageIcon("C:\\Users\\m2k\\Desktop\\Amine YKh\\amine\\Travaux \u00E0 faire\\PROJET TP GL2\\12.png"));
-		labelC.setBounds(-21, 0, 886, 421);
+		labelC.setIcon(new ImageIcon(getClass().getResource("/Icones/12.png")));
+		
 		paneldons.add(labelC);
 
 		paneltransactions = new JPanel();
@@ -371,11 +371,11 @@ public class FenBanqueDeSangAffichage extends JFrame {
 				dispose();
 			}
 		});
-		label_D.setIcon(new ImageIcon("C:\\Users\\m2k\\Desktop\\Amine YKh\\amine\\Travaux \u00E0 faire\\PROJET TP GL2\\arrow-address-back_icon-icons.com_54065.png"));
+		label_D.setIcon(new ImageIcon(getClass().getResource("/Icones/arrow-address-back_icon-icons.com_54065.png")));
 		label_D.setBounds(10, 0, 59, 39);
 		paneltransactions.add(label_D);
 		JLabel labelSD = new JLabel("");
-		labelSD.setIcon(new ImageIcon("C:\\Users\\m2k\\Desktop\\Amine YKh\\amine\\Travaux \u00E0 faire\\PROJET TP GL2\\12.png"));
+		labelSD.setIcon(new ImageIcon(getClass().getResource("/Icones/12.png")));
 		labelSD.setBounds(-21, 0, 886, 421);
 		paneltransactions.add(labelSD);
 		
@@ -408,11 +408,10 @@ public class FenBanqueDeSangAffichage extends JFrame {
 				dispose();
 			}
 		});
-		label_111.setIcon(new ImageIcon("C:\\Users\\m2k\\Desktop\\Amine YKh\\amine\\Travaux \u00E0 faire\\PROJET TP GL2\\arrow-address-back_icon-icons.com_54065.png"));
-		label_111.setBounds(10, 0, 59, 39);
+		label_111.setIcon(new ImageIcon(getClass().getResource("/Icones/arrow-address-back_icon-icons.com_54065.png")));
 		paneldemandes.add(label_111);
 		JLabel labeZlA = new JLabel("");
-		labeZlA.setIcon(new ImageIcon("C:\\Users\\m2k\\Desktop\\Amine YKh\\amine\\Travaux \u00E0 faire\\PROJET TP GL2\\12.png"));
+		labeZlA.setIcon(new ImageIcon(getClass().getResource("/Icones/12.png")));
 		labeZlA.setBounds(-21, 0, 886, 421);
 		paneldemandes.add(labeZlA);
 		
@@ -445,11 +444,11 @@ public class FenBanqueDeSangAffichage extends JFrame {
 				dispose();
 			}
 		});
-		label_190.setIcon(new ImageIcon("C:\\Users\\m2k\\Desktop\\Amine YKh\\amine\\Travaux \u00E0 faire\\PROJET TP GL2\\arrow-address-back_icon-icons.com_54065.png"));
+		label_190.setIcon(new ImageIcon(getClass().getResource("/Icones/arrow-address-back_icon-icons.com_54065.png")));
 		label_190.setBounds(10, 0, 59, 39);
 		panelstocks.add(label_190);
 		JLabel labelEA = new JLabel("");
-		labelEA.setIcon(new ImageIcon("C:\\Users\\m2k\\Desktop\\Amine YKh\\amine\\Travaux \u00E0 faire\\PROJET TP GL2\\12.png"));
+	    labelEA.setIcon(new ImageIcon(getClass().getResource("/Icones/12.png")));
 		labelEA.setBounds(-21, 0, 886, 421);
 		panelstocks.add(labelEA);
 		
@@ -483,11 +482,11 @@ public class FenBanqueDeSangAffichage extends JFrame {
 				dispose();
 			}
 		});
-		label_10.setIcon(new ImageIcon("C:\\Users\\m2k\\Desktop\\Amine YKh\\amine\\Travaux \u00E0 faire\\PROJET TP GL2\\arrow-address-back_icon-icons.com_54065.png"));
+		label_10.setIcon(new ImageIcon(getClass().getResource("/Icones/arrow-address-back_icon-icons.com_54065.png")));
 		label_10.setBounds(10, 0, 59, 39);
 		panelcarnet.add(label_10);
 		JLabel labelEPA = new JLabel("");
-		labelEPA.setIcon(new ImageIcon("C:\\Users\\m2k\\Desktop\\Amine YKh\\amine\\Travaux \u00E0 faire\\PROJET TP GL2\\12.png"));
+		labelEPA.setIcon(new ImageIcon(getClass().getResource("/Icones/12.png")));
 		labelEPA.setBounds(-21, 0, 886, 421);
 		panelcarnet.add(labelEPA);
 		
@@ -547,7 +546,7 @@ public class FenBanqueDeSangAffichage extends JFrame {
 		contentPane.add(panel_8);
 		
 		JLabel label = new JLabel("");
-		label.setIcon(new ImageIcon("C:\\Users\\Belinfo\\Bureau\\Amine YK\\Amine YK\\Amine YKh\\amine\\Bloonation Ressources\\11.png"));
+		label.setIcon(new ImageIcon(getClass().getResource("/Icones/11.png")));
 		label.setBounds(-19, 0, 1041, 430);
 		contentPane.add(label);
 	}
