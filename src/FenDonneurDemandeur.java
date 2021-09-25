@@ -137,7 +137,7 @@ public class FenDonneurDemandeur extends JFrame {
 		super.setUndecorated(true);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
-		ImageIcon obj1 = new ImageIcon("C:\\Users\\Belinfo\\Bureau\\Amine YK\\Amine YK\\Amine YKh\\amine\\Bloonation Ressources\\transfuse_38039.png");
+		ImageIcon obj1  = new ImageIcon(getClass().getResource("/Icones/transfuse_38039.png"));
 		super.setIconImage(obj1.getImage());
 
 		setContentPane(contentPane);
@@ -162,7 +162,7 @@ public class FenDonneurDemandeur extends JFrame {
 				}
 			}
 		});
-		label_1.setIcon(new ImageIcon("C:\\Users\\Belinfo\\Bureau\\Amine YK\\Amine YK\\Amine YKh\\amine\\Bloonation Ressources\\close_delete_delete_theaction_theoutput_10252.png"));
+		label_1.setIcon(new ImageIcon(getClass().getResource("/Icones/close_delete_delete_theaction_theoutput_10252.png")));
 		label_1.setBounds(2, 4, 32, 38);
 		contentPane.add(label_1);
 		
@@ -176,7 +176,7 @@ public class FenDonneurDemandeur extends JFrame {
 				dispose();
 			}
 		});
-		label_3.setIcon(new ImageIcon("C:\\Users\\Belinfo\\Bureau\\Amine YK\\Amine YK\\Amine YKh\\amine\\Bloonation Ressources\\Patient_Male_icon-icons.com_75053.png"));
+		label_3.setIcon(new ImageIcon(getClass().getResource("/Icones/Patient_Male_icon-icons.com_75053.png")));
 		label_3.setBounds(80, 8, 46, 49);
 		contentPane.add(label_3);
 		
@@ -237,7 +237,7 @@ public class FenDonneurDemandeur extends JFrame {
 				
 			}
 		});
-		label_4.setIcon(new ImageIcon("C:\\Users\\Belinfo\\Bureau\\Amine YK\\Amine YK\\Amine YKh\\amine\\Bloonation Ressources\\addressbook_36282.png"));
+		label_4.setIcon(new ImageIcon(getClass().getResource("/Icones/addressbook_36282.png")));
 		label_4.setBounds(3, 81, 32, 39);
 		contentPane.add(label_4);
 		
@@ -299,7 +299,7 @@ public class FenDonneurDemandeur extends JFrame {
 				
 			}
 		});
-		label_6.setIcon(new ImageIcon("C:\\Users\\Belinfo\\Bureau\\Amine YK\\Amine YK\\Amine YKh\\amine\\Bloonation Ressources\\document_report_16751.png"));
+		label_6.setIcon(new ImageIcon(getClass().getResource("/Icones/document_report_16751.png")));
 		label_6.setBounds(4, 155, 32, 39);
 		contentPane.add(label_6);
 		
@@ -329,7 +329,7 @@ public class FenDonneurDemandeur extends JFrame {
 				
 			}
 		});
-		label_8.setIcon(new ImageIcon("C:\\Users\\Belinfo\\Bureau\\Amine YK\\Amine YK\\Amine YKh\\amine\\Bloonation Ressources\\iconfinder-bellnotificationsnoticenotifyalert-3993856_112639.png"));
+		label_8.setIcon(new ImageIcon(getClass().getResource("/Icones/iconfinder-bellnotificationsnoticenotifyalert-3993856_112639.png")));
 		label_8.setBounds(2, 227, 32, 39);
 		contentPane.add(label_8);
 		
@@ -656,7 +656,7 @@ public class FenDonneurDemandeur extends JFrame {
 		
 		JLabel label_9 = new JLabel("");
 		label_9.setBounds(-64, 0, 900, 421);
-		label_9.setIcon(new ImageIcon("C:\\Users\\Belinfo\\Bureau\\Amine YK\\Amine YK\\Amine YKh\\amine\\Bloonation Ressources\\12.png"));
+		label_9.setIcon(new ImageIcon(getClass().getResource("/Icones/12.png")));
 		paneldemande.add(label_9);
 		
 		panelconsult = new JPanel();
@@ -681,7 +681,7 @@ public class FenDonneurDemandeur extends JFrame {
 		
 		
 		JLabel label_11 = new JLabel("");
-		label_11.setIcon(new ImageIcon("C:\\Users\\Belinfo\\Bureau\\Amine YK\\Amine YK\\Amine YKh\\amine\\Bloonation Ressources\\12.png"));
+		label_11.setIcon(new ImageIcon(getClass().getResource("/Icones/12.png")));
 		label_11.setBounds(-25, 0, 886, 421);
 		panelconsult.add(label_11);
 		panelnotifs = new JPanel();
@@ -707,12 +707,12 @@ public class FenDonneurDemandeur extends JFrame {
 		panelnotifs.add(panel);
 		
 		JLabel label_16 = new JLabel("");
-		label_16.setIcon(new ImageIcon("C:\\Users\\Belinfo\\Bureau\\Amine YK\\Amine YK\\Amine YKh\\amine\\Bloonation Ressources\\phone-volume_icon-icons.com_56474 (1).png"));
+		label_16.setIcon(new ImageIcon(getClass().getResource("/Icones/phone-volume_icon-icons.com_56474 (1).png")));
 		label_16.setBounds(4, 47, 46, 46);
 		panelnotifs.add(label_16);
 		
 		JLabel label_17 = new JLabel("");
-		label_17.setIcon(new ImageIcon("C:\\Users\\Belinfo\\Bureau\\Amine YK\\Amine YK\\Amine YKh\\amine\\Bloonation Ressources\\email-envelope-outline-shape-with-rounded-corners_icon-icons.com_56530.png"));
+		label_17.setIcon(new ImageIcon(getClass().getResource("/Icones/email-envelope-outline-shape-with-rounded-corners_icon-icons.com_56530.png")));
 		label_17.setBounds(3, 171, 46, 46);
 		panelnotifs.add(label_17);
 		
@@ -722,7 +722,7 @@ public class FenDonneurDemandeur extends JFrame {
 		panelnotifs.add(label_18);
 		
 		JLabel label_20 = new JLabel("");
-		label_20.setIcon(new ImageIcon("C:\\Users\\Belinfo\\Bureau\\Amine YK\\Amine YK\\Amine YKh\\amine\\Bloonation Ressources\\hospital_medical_consultation_icon_140164 (1).png"));
+		label_20.setIcon(new ImageIcon(getClass().getResource("/Icones/hospital_medical_consultation_icon_140164 (1).png")));
 		label_20.setBounds(4, 302, 46, 46);
 		panelnotifs.add(label_20);
 		
@@ -784,7 +784,7 @@ public class FenDonneurDemandeur extends JFrame {
 				}
 			}
 		});
-		label_22.setIcon(new ImageIcon("C:\\Users\\Belinfo\\Bureau\\Amine YK\\Amine YK\\Amine YKh\\amine\\Bloonation Ressources\\seo-social-web-network-internet_262_icon-icons.com_61518.png"));
+		label_22.setIcon(new ImageIcon(getClass().getResource("/Icones/seo-social-web-network-internet_262_icon-icons.com_61518.png")));
 		label_22.setBounds(156, 84, 46, 46);
 		panelnotifs.add(label_22);
 		
@@ -893,7 +893,7 @@ public class FenDonneurDemandeur extends JFrame {
 				}
 			}
 		});
-		label_23.setIcon(new ImageIcon("C:\\Users\\Belinfo\\Bureau\\Amine YK\\Amine YK\\Amine YKh\\amine\\Bloonation Ressources\\seo-social-web-network-internet_262_icon-icons.com_61518.png"));
+		label_23.setIcon(new ImageIcon(getClass().getResource("/Icones/seo-social-web-network-internet_262_icon-icons.com_61518.png")));
 		label_23.setBounds(152, 205, 46, 46);
 		panelnotifs.add(label_23);
 		
@@ -1043,7 +1043,7 @@ public class FenDonneurDemandeur extends JFrame {
 		panelnotifs.add(banquedesangRQ);
 		
 		JLabel label_10 = new JLabel("");
-		label_10.setIcon(new ImageIcon("C:\\Users\\Belinfo\\Bureau\\Amine YK\\Amine YK\\Amine YKh\\amine\\Bloonation Ressources\\Patient_Male_icon-icons.com_75053 (1).png"));
+		label_10.setIcon(new ImageIcon(getClass().getResource("/Icones/Patient_Male_icon-icons.com_75053 (1).png")));
 		label_10.setBounds(4, 358, 46, 46);
 		panelnotifs.add(label_10);
 		
@@ -1053,7 +1053,8 @@ public class FenDonneurDemandeur extends JFrame {
 		panelnotifs.add(lblVotreDemandeDe);
 		
 		JLabel label_12 = new JLabel("");
-		label_12.setIcon(new ImageIcon("C:\\Users\\Belinfo\\Bureau\\Amine YK\\Amine YK\\Amine YKh\\amine\\Bloonation Ressources\\12.png"));
+		label_12.setIcon(new ImageIcon(getClass().getResource("/Icones/12.png")));
+		
 		label_12.setBounds(-23, 0, 886, 421);
 		panelnotifs.add(label_12);
 		
@@ -1074,8 +1075,9 @@ public class FenDonneurDemandeur extends JFrame {
 		tablecarnets.setFont(new Font("Lucida Fax", Font.ITALIC, 12));
 		scrollPane_1.setViewportView(tablecarnets);
 		
+		
 		JLabel label_7 = new JLabel("");
-		label_7.setIcon(new ImageIcon("C:\\Users\\Belinfo\\Bureau\\Amine YK\\Amine YK\\Amine YKh\\amine\\Bloonation Ressources\\12.png"));
+		label_7.setIcon(new ImageIcon(getClass().getResource("/Icones/12.png")));
 		label_7.setBounds(-21, 0, 886, 421);
 		panelcarnet.add(label_7);
 		
@@ -1108,7 +1110,7 @@ public class FenDonneurDemandeur extends JFrame {
 		contentPane.add(lblDeSant);
 		
 		JLabel label_26 = new JLabel("");
-		label_26.setIcon(new ImageIcon("C:\\Users\\Belinfo\\Bureau\\Amine YK\\Amine YK\\Amine YKh\\amine\\Bloonation Ressources\\blood_drop_icon-icons.com_76228 (2).png"));
+		label_26.setIcon(new ImageIcon(getClass().getResource("/Icones/blood_drop_icon-icons.com_76228 (2).png")));
 		label_26.setBounds(3, 304, 32, 39);
 		contentPane.add(label_26);
 		
@@ -1165,7 +1167,7 @@ public class FenDonneurDemandeur extends JFrame {
 		
 		
 		JLabel label = new JLabel("");
-		label.setIcon(new ImageIcon("C:\\Users\\Belinfo\\Bureau\\Amine YK\\Amine YK\\Amine YKh\\amine\\Bloonation Ressources\\11.png"));
+		label.setIcon(new ImageIcon(getClass().getResource("/Icones/11.png")));
 		label.setBounds(-19, 0, 1041, 430);
 		contentPane.add(label);
 		remplirnomprenom();
