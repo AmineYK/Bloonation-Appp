@@ -156,7 +156,6 @@ public class FenBanqueDeSang extends JFrame {
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		ImageIcon obj = new ImageIcon(getClass().getResource("/Icones/transfuse_38039.png"));
-		//ImageIcon obj1 = new ImageIcon("C:\\Users\\Belinfo\\Bureau\\Amine YK\\Amine YK\\Amine YKh\\amine\\Bloonation Ressources\\transfuse_38039.png");
 		super.setIconImage(obj.getImage());
 
 		setContentPane(contentPane);
@@ -181,7 +180,7 @@ public class FenBanqueDeSang extends JFrame {
 				}
 			}
 		});
-		//label_1.setIcon(new ImageIcon(getClass().getResource("/Icones/close_delete_delete_theaction_theoutput_10252.png")));
+		label_1.setIcon(new ImageIcon(getClass().getResource("/Icones/close_delete_delete_theaction_theoutput_10252.png")));
 		label_1.setBounds(2, 4, 32, 38);
 		contentPane.add(label_1);
 		
@@ -195,7 +194,7 @@ public class FenBanqueDeSang extends JFrame {
 				dispose();
 			}
 		});
-		label_3.setIcon(new ImageIcon("C:\\Users\\Belinfo\\Bureau\\Amine YK\\Amine YK\\Amine YKh\\amine\\Bloonation Ressources\\blood_drop_icon-icons.com_76228 (1).png"));
+		label_3.setIcon(new ImageIcon(getClass().getResource("/Icones/blood_drop_icon-icons.com_76228 (1).png")));
 		label_3.setBounds(80, 8, 46, 49);
 		contentPane.add(label_3);
 		
@@ -256,7 +255,7 @@ public class FenBanqueDeSang extends JFrame {
 				
 			}
 		});
-		label_4.setIcon(new ImageIcon("C:\\Users\\Belinfo\\Bureau\\Amine YK\\Amine YK\\Amine YKh\\amine\\Bloonation Ressources\\blood_icon_149283 (1).png"));
+		label_4.setIcon(new ImageIcon(getClass().getResource("/Icones/blood_icon_149283 (1).png")));
 		label_4.setBounds(11, 68, 32, 39);
 		contentPane.add(label_4);
 		
