@@ -70,7 +70,8 @@ public class Splash extends JFrame {
 		setBounds(100, 100, 710,400);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
-		ImageIcon obj1 = new ImageIcon("C:\\Users\\Belinfo\\Bureau\\Amine YK\\Amine YK\\Amine YKh\\amine\\Bloonation Ressources\\transfuse_38039.png");
+		ImageIcon obj1= new ImageIcon(getClass().getResource("/Icones/transfuse_38039.png"));
+		
 		super.setIconImage(obj1.getImage());
 		
 		setContentPane(contentPane);
@@ -115,7 +116,7 @@ public class Splash extends JFrame {
 		contentPane.add(label_3);
 		
 		label_4 = new JLabel("");
-		label_4.setIcon(new ImageIcon("C:\\Users\\m2k\\Desktop\\Amine YKh\\amine\\Travaux \u00E0 faire\\PROJET TP GL2\\transfuse_38039.png"));
+		label_4.setIcon(new ImageIcon(getClass().getResource("/Icones/transfuse_38039.png")));
 		label_4.setBounds(620, 306, 78, 81);
 		contentPane.add(label_4);
 		
@@ -144,8 +145,10 @@ public class Splash extends JFrame {
 		lblAtion.setBounds(471, 94, 179, 94);
 		contentPane.add(lblAtion);
 		
+	
+	
 		JLabel lblNewLabel = new JLabel("New label");
-		lblNewLabel.setIcon(new ImageIcon("C:\\Users\\Belinfo\\Bureau\\Amine YK\\Amine YK\\Amine YKh\\amine\\Bloonation Ressources\\cassi-josh-lhnOvu72BM8-unsplash.jpg"));
+		lblNewLabel.setIcon(new ImageIcon(getClass().getResource("/Icones/cassi-josh-lhnOvu72BM8-unsplash.jpg")));
 		lblNewLabel.setBounds(0, 0, 710, 400);
 		contentPane.add(lblNewLabel);
 	}

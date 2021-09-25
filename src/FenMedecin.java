@@ -72,7 +72,8 @@ public class FenMedecin extends JFrame {
 		super.setUndecorated(true);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
-		ImageIcon obj1 = new ImageIcon("C:\\Users\\Belinfo\\Bureau\\Amine YK\\Amine YK\\Amine YKh\\amine\\Bloonation Ressources\\transfuse_38039.png");
+		ImageIcon obj1 = new ImageIcon(getClass().getResource("/Icones/transfuse_38039.png"));
+		
 		super.setIconImage(obj1.getImage());
 
 		setContentPane(contentPane);
@@ -92,7 +93,7 @@ public class FenMedecin extends JFrame {
 				}
 			}
 		});
-		label_21.setIcon(new ImageIcon("C:\\Users\\Belinfo\\Bureau\\Amine YK\\Amine YK\\Amine YKh\\amine\\Bloonation Ressources\\close_delete_delete_theaction_theoutput_10252.png"));
+		label_21.setIcon(new ImageIcon(getClass().getResource("/Icones/close_delete_delete_theaction_theoutput_10252.png")));
 		label_21.setBounds(392, 5, 32, 38);
 		contentPane.add(label_21);
 		
@@ -142,7 +143,7 @@ public class FenMedecin extends JFrame {
 				dispose();
 			}
 		});
-		label_3.setIcon(new ImageIcon("C:\\Users\\Belinfo\\Bureau\\Amine YK\\Amine YK\\Amine YKh\\amine\\Bloonation Ressources\\Doctor_Male_icon-icons.com_75051.png"));
+		label_3.setIcon(new ImageIcon(getClass().getResource("/Icones/Doctor_Male_icon-icons.com_75051.png")));
 		label_3.setBounds(15, 2, 46, 49);
 		contentPane.add(label_3);
 		
@@ -344,7 +345,8 @@ public class FenMedecin extends JFrame {
 				remplirnomprenom1();
 			}
 		});
-		label_1.setIcon(new ImageIcon("C:\\Users\\Belinfo\\Bureau\\Amine YK\\Amine YK\\Amine YKh\\amine\\Bloonation Ressources\\refresh-arrow_icon-icons.com_53911 (1).png"));
+		label_1.setIcon(new ImageIcon(getClass().getResource("/Icones/refresh-arrow_icon-icons.com_53911 (1).png")));
+		
 		label_1.setBounds(28, 191, 46, 36);
 		contentPane.add(label_1);
 		
@@ -370,7 +372,7 @@ public class FenMedecin extends JFrame {
 		contentPane.add(banquesang);
 		
 		JLabel label = new JLabel("");
-		label.setIcon(new ImageIcon("C:\\Users\\Belinfo\\Bureau\\Amine YK\\Amine YK\\Amine YKh\\amine\\Bloonation Ressources\\2.png"));
+		label.setIcon(new ImageIcon(getClass().getResource("/Icones/2.png")));
 		label.setBounds(-11, -13, 450, 641);
 		contentPane.add(label);
 		remplirbanquesang();

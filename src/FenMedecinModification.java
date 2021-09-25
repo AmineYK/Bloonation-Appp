@@ -69,7 +69,8 @@ public class FenMedecinModification extends JFrame {
 		super.setUndecorated(true);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
-		ImageIcon obj1 = new ImageIcon("C:\\Users\\Belinfo\\Bureau\\Amine YK\\Amine YK\\Amine YKh\\amine\\Bloonation Ressources\\transfuse_38039.png");
+		ImageIcon obj1 =new ImageIcon(getClass().getResource("/Icones/transfuse_38039.png"));
+		
 		super.setIconImage(obj1.getImage());
 
 		setContentPane(contentPane);
@@ -79,7 +80,8 @@ public class FenMedecinModification extends JFrame {
 		remplirnomprenom();
 		
 		JLabel label_1 = new JLabel("");
-		label_1.setIcon(new ImageIcon("C:\\Users\\Belinfo\\Bureau\\Amine YK\\Amine YK\\Amine YKh\\amine\\Bloonation Ressources\\Doctor_Male_icon-icons.com_75051.png"));
+		label_1.setIcon(new ImageIcon(getClass().getResource("/Icones/Doctor_Male_icon-icons.com_75051.png")));
+		
 		label_1.setBounds(9, 2, 46, 49);
 		contentPane.add(label_1);
 		
@@ -254,7 +256,7 @@ public class FenMedecinModification extends JFrame {
 				dispose();
 			}
 		});
-		label_9.setIcon(new ImageIcon("C:\\Users\\Belinfo\\Bureau\\Amine YK\\Amine YK\\Amine YKh\\amine\\Bloonation Ressources\\arrow-address-back_icon-icons.com_54065.png"));
+		label_9.setIcon(new ImageIcon(getClass().getResource("/Icones/arrow-address-back_icon-icons.com_54065.png")));
 		label_9.setBounds(9, 70, 59, 39);
 		contentPane.add(label_9);
 		
@@ -270,12 +272,13 @@ public class FenMedecinModification extends JFrame {
 				dispose();
 			}}
 		});
-		label_8SW.setIcon(new ImageIcon("C:\\Users\\Belinfo\\Bureau\\Amine YK\\Amine YK\\Amine YKh\\amine\\Bloonation Ressources\\Logout_37127.png"));
+		label_8SW.setIcon(new ImageIcon(getClass().getResource("/Icones/Logout_37127.png")));
+		
 		label_8SW.setBounds(349, 528, 59, 49);
 		contentPane.add(label_8SW);
 		
 		JLabel label = new JLabel("");
-		label.setIcon(new ImageIcon("C:\\Users\\Belinfo\\Bureau\\Amine YK\\Amine YK\\Amine YKh\\amine\\Bloonation Ressources\\7.png"));
+		label.setIcon(new ImageIcon(getClass().getResource("/Icones/7.png")));
 		label.setBounds(-10, 0, 414, 749);
 		contentPane.add(label);
 		remplirchamps();
