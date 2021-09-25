@@ -76,7 +76,7 @@ public class Auth extends JFrame {
 		super.setUndecorated(true);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
-		ImageIcon obj1 = new ImageIcon("C:\\Users\\Belinfo\\OneDrive\\Bureau\\Amine YK\\Amine YK\\Amine YKh\\amine\\Bloonation Ressources\\transfuse_38039.png");
+		ImageIcon obj1 = new ImageIcon(getClass().getResource("/Icones/transfuse_38039.png"));
 		super.setIconImage(obj1.getImage());
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
@@ -103,7 +103,7 @@ public class Auth extends JFrame {
 		contentPane.add(label_3);
 		
 		JLabel label_4 = new JLabel("");
-		label_4.setIcon(new ImageIcon("C:\\Users\\Belinfo\\Bureau\\Amine YK\\Amine YK\\Amine YKh\\amine\\Bloonation Ressources\\blood_testing_bloods_transfusion_coronavirus_icon_141483.png"));
+		label_4.setIcon(new ImageIcon(getClass().getResource("/Icones/blood_testing_bloods_transfusion_coronavirus_icon_141483.png")));
 		label_4.setFont(new Font("Lucida Fax", Font.BOLD | Font.ITALIC, 17));
 		label_4.setBounds(72, 162, 145, 145);
 		contentPane.add(label_4);
@@ -114,7 +114,7 @@ public class Auth extends JFrame {
 		contentPane.add(label_5);
 		
 		JLabel label_6 = new JLabel("");
-		label_6.setIcon(new ImageIcon("C:\\Users\\Belinfo\\Bureau\\Amine YK\\Amine YK\\Amine YKh\\amine\\Bloonation Ressources\\blood_medical_18050.png"));
+		label_6.setIcon(new ImageIcon(getClass().getResource("/Icones/blood_medical_18050.png")));
 		label_6.setFont(new Font("Lucida Fax", Font.BOLD | Font.ITALIC, 17));
 		label_6.setBounds(106, 350, 64, 57);
 		contentPane.add(label_6);
@@ -435,7 +435,7 @@ public class Auth extends JFrame {
 		contentPane.add(lblQuestCeQue);
 		
 		JLabel label_9 = new JLabel("");
-		label_9.setIcon(new ImageIcon("C:\\Users\\Belinfo\\Bureau\\Amine YK\\Amine YK\\Amine YKh\\amine\\Bloonation Ressources\\transfuse_38039.png"));
+		label_9.setIcon(new ImageIcon(getClass().getResource("/Icones/transfuse_38039.png")));
 		label_9.setBounds(224, 10, 70, 60);
 		contentPane.add(label_9);
 		
@@ -448,12 +448,12 @@ public class Auth extends JFrame {
 				dispose();}
 			}
 		});
-		label_10.setIcon(new ImageIcon("C:\\Users\\Belinfo\\OneDrive\\Bureau\\Amine YK\\Amine YK\\Amine YKh\\amine\\Bloonation Ressources\\Childish-Cross_24996.png"));
+		label_10.setIcon(new ImageIcon(getClass().getResource("/Icones/Childish-Cross_24996.png")));
 		label_10.setBounds(556, -8, 48, 60);
 		contentPane.add(label_10);
 		
 		JLabel label = new JLabel("");
-		label.setIcon(new ImageIcon("C:\\Users\\Belinfo\\Bureau\\Amine YK\\Amine YK\\Amine YKh\\amine\\Bloonation Ressources\\w.png"));
+		label.setIcon(new ImageIcon(getClass().getResource("/Icones/w.png")));
 		label.setBounds(-23, 0, 646, 461);
 		contentPane.add(label);
 		
