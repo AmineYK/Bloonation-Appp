@@ -316,7 +316,7 @@ public class FenBanqueDeSang extends JFrame {
 				
 			}
 		});
-		label_6.setIcon(new ImageIcon("C:\\Users\\Belinfo\\Bureau\\Amine YK\\Amine YK\\Amine YKh\\amine\\Bloonation Ressources\\Patient_Male_icon-icons.com_75053 (1).png"));
+		label_6.setIcon(new ImageIcon(getClass().getResource("/Icones/Patient_Male_icon-icons.com_75053 (1).png")));
 		label_6.setBounds(11, 140, 32, 39);
 		contentPane.add(label_6);
 		
@@ -377,7 +377,7 @@ public class FenBanqueDeSang extends JFrame {
 				
 			}
 		});
-		label_8.setIcon(new ImageIcon("C:\\Users\\Belinfo\\Bureau\\Amine YK\\Amine YK\\Amine YKh\\amine\\Bloonation Ressources\\businessapplication_database_database_accepteitheracceptthedatabase_connect_connectdatabase_negocios_aplicacion_basededato_2310.png"));
+		label_8.setIcon(new ImageIcon(getClass().getResource("/Icones/businessapplication_database_database_accepteitheracceptthedatabase_connect_connectdatabase_negocios_aplicacion_basededato_2310.png")));
 		label_8.setBounds(11, 209, 32, 39);
 		contentPane.add(label_8);
 		
@@ -438,7 +438,8 @@ public class FenBanqueDeSang extends JFrame {
 				
 			}
 		});
-		label_10.setIcon(new ImageIcon("C:\\Users\\Belinfo\\Bureau\\Amine YK\\Amine YK\\Amine YKh\\amine\\Bloonation Ressources\\doc_success_icon_155483.png"));
+		label_10.setIcon(new ImageIcon(getClass().getResource("/Icones/doc_success_icon_155483.png")));
+		
 		label_10.setBounds(11, 283, 32, 39);
 		contentPane.add(label_10);
 		
@@ -1040,7 +1041,7 @@ public class FenBanqueDeSang extends JFrame {
 				
 			}
 		});
-		label_21.setIcon(new ImageIcon("C:\\Users\\Belinfo\\Bureau\\Amine YK\\Amine YK\\Amine YKh\\amine\\Bloonation Ressources\\refresh-arrow_icon-icons.com_53911 (1).png"));
+		label_21.setIcon(new ImageIcon(getClass().getResource("/Icones/refresh-arrow_icon-icons.com_53911 (1).png")));
 		label_21.setBounds(444, 217, 37, 36);
 		paneldonnneur.add(label_21);
 		
@@ -1191,7 +1192,8 @@ public class FenBanqueDeSang extends JFrame {
 				remplirdest();
 			}
 		});
-		label_25.setIcon(new ImageIcon("C:\\Users\\Belinfo\\Bureau\\Amine YK\\Amine YK\\Amine YKh\\amine\\Bloonation Ressources\\refresh-arrow_icon-icons.com_53911 (1).png"));
+		label_25.setIcon(new ImageIcon(getClass().getResource("/Icones/refresh-arrow_icon-icons.com_53911 (1).png")));
+		
 		label_25.setBounds(440, 99, 37, 36);
 		paneldonnneur.add(label_25);
 		
@@ -1248,7 +1250,7 @@ public class FenBanqueDeSang extends JFrame {
 				NP1=1;
 			}
 		});
-		label_44.setIcon(new ImageIcon("C:\\Users\\Belinfo\\Bureau\\Amine YK\\Amine YK\\Amine YKh\\amine\\Bloonation Ressources\\refresh-arrow_icon-icons.com_53911 (1).png"));
+		label_44.setIcon(new ImageIcon(getClass().getResource("/Icones/refresh-arrow_icon-icons.com_53911 (1).png")));
 		label_44.setBounds(10, 11, 37, 36);
 		paneldonnneur.add(label_44);
 		
@@ -1262,7 +1264,7 @@ public class FenBanqueDeSang extends JFrame {
 				NP2=1;
 			}
 		});
-		label_45.setIcon(new ImageIcon("C:\\Users\\Belinfo\\Bureau\\Amine YK\\Amine YK\\Amine YKh\\amine\\Bloonation Ressources\\refresh-arrow_icon-icons.com_53911 (1).png"));
+		label_45.setIcon(new ImageIcon(getClass().getResource("/Icones/refresh-arrow_icon-icons.com_53911 (1).png")));
 		label_45.setBounds(10, 219, 37, 36);
 		paneldonnneur.add(label_45);
 		
@@ -1283,7 +1285,8 @@ public class FenBanqueDeSang extends JFrame {
 		JLabel label_9 = new JLabel("");
 		label_9.setBounds(-54, 0, 900, 421);
 		paneldonnneur.add(label_9);
-		label_9.setIcon(new ImageIcon("C:\\Users\\Belinfo\\Bureau\\Amine YK\\Amine YK\\Amine YKh\\amine\\Bloonation Ressources\\12.png"));
+		label_9.setIcon(new ImageIcon(getClass().getResource("/Icones/12.png")));
+		//label_9.setIcon(new ImageIcon("C:\\Users\\Belinfo\\Bureau\\Amine YK\\Amine YK\\Amine YKh\\amine\\Bloonation Ressources\\12.png"));
 		panelstock = new JPanel();
 		panelprincipale.add(panelstock, "3");
 		panelstock.setLayout(null);
@@ -1395,7 +1398,7 @@ public class FenBanqueDeSang extends JFrame {
 			remplirquantitepargs();
 			}
 		});
-		label_29.setIcon(new ImageIcon("C:\\Users\\Belinfo\\Bureau\\Amine YK\\Amine YK\\Amine YKh\\amine\\Bloonation Ressources\\refresh-arrow_icon-icons.com_53911 (1).png"));
+		label_29.setIcon(new ImageIcon(getClass().getResource("/Icones/refresh-arrow_icon-icons.com_53911 (1).png")));
 		label_29.setBounds(145, 294, 37, 36);
 		panelstock.add(label_29);
 		
@@ -1406,7 +1409,7 @@ public class FenBanqueDeSang extends JFrame {
 				stocktotale();
 			}
 		});
-		label_31.setIcon(new ImageIcon("C:\\Users\\Belinfo\\Bureau\\Amine YK\\Amine YK\\Amine YKh\\amine\\Bloonation Ressources\\refresh-arrow_icon-icons.com_53911 (1).png"));
+		label_31.setIcon(new ImageIcon(getClass().getResource("/Icones/refresh-arrow_icon-icons.com_53911 (1).png")));
 		label_31.setBounds(18, 296, 37, 36);
 		panelstock.add(label_31);
 		
@@ -1513,7 +1516,7 @@ public class FenBanqueDeSang extends JFrame {
 		
 		
 		JLabel label_11 = new JLabel("");
-		label_11.setIcon(new ImageIcon("C:\\Users\\Belinfo\\Bureau\\Amine YK\\Amine YK\\Amine YKh\\amine\\Bloonation Ressources\\12.png"));
+		label_11.setIcon(new ImageIcon(getClass().getResource("/Icones/12.png")));
 		label_11.setBounds(-25, 0, 886, 421);
 		panelstock.add(label_11);
 		panelactivite = new JPanel();
@@ -1732,7 +1735,8 @@ public class FenBanqueDeSang extends JFrame {
 			remplircollecte();
 			}
 		});
-		label_38.setIcon(new ImageIcon("C:\\Users\\Belinfo\\Bureau\\Amine YK\\Amine YK\\Amine YKh\\amine\\Bloonation Ressources\\refresh-arrow_icon-icons.com_53911 (1).png"));
+		label_38.setIcon(new ImageIcon(getClass().getResource("/Icones/refresh-arrow_icon-icons.com_53911 (1).png")));
+		
 		label_38.setBounds(374, 11, 32, 36);
 		panelactivite.add(label_38);
 		
@@ -1743,18 +1747,18 @@ public class FenBanqueDeSang extends JFrame {
 			remplirdistribution();
 			}
 		});
-		label_39.setIcon(new ImageIcon("C:\\Users\\Belinfo\\Bureau\\Amine YK\\Amine YK\\Amine YKh\\amine\\Bloonation Ressources\\refresh-arrow_icon-icons.com_53911 (1).png"));
+		label_39.setIcon(new ImageIcon(getClass().getResource("/Icones/refresh-arrow_icon-icons.com_53911 (1).png")));
 		label_39.setBounds(374, 223, 32, 36);
 		panelactivite.add(label_39);
 		
 		JLabel label_12 = new JLabel("");
-		label_12.setIcon(new ImageIcon("C:\\Users\\Belinfo\\Bureau\\Amine YK\\Amine YK\\Amine YKh\\amine\\Bloonation Ressources\\12.png"));
+		label_12.setIcon(new ImageIcon(getClass().getResource("/Icones/12.png")));
 		label_12.setBounds(-23, 0, 886, 421);
 		panelactivite.add(label_12);
 		
 		
 		JLabel label = new JLabel("");
-		label.setIcon(new ImageIcon("C:\\Users\\Belinfo\\Bureau\\Amine YK\\Amine YK\\Amine YKh\\amine\\Bloonation Ressources\\11.png"));
+		label.setIcon(new ImageIcon(getClass().getResource("/Icones/11.png")));
 		label.setBounds(-19, 0, 1041, 430);
 		contentPane.add(label);
 		remplirmed();
@@ -1772,7 +1776,7 @@ public class FenBanqueDeSang extends JFrame {
 
 			
 		});
-		label_19.setIcon(new ImageIcon("C:\\Users\\Belinfo\\Bureau\\Amine YK\\Amine YK\\Amine YKh\\amine\\Bloonation Ressources\\refresh-arrow_icon-icons.com_53911 (1).png"));
+		label_19.setIcon(new ImageIcon(getClass().getResource("/Icones/refresh-arrow_icon-icons.com_53911 (1).png")));
 		label_19.setBounds(21, 61, 39, 37);
 		paneldon.add(label_19);
 		
@@ -1938,7 +1942,8 @@ public class FenBanqueDeSang extends JFrame {
 			remplirtelemail();
 			}
 		});
-		label_40.setIcon(new ImageIcon("C:\\Users\\Belinfo\\Bureau\\Amine YK\\Amine YK\\Amine YKh\\amine\\Bloonation Ressources\\refresh-arrow_icon-icons.com_53911 (1).png"));
+		label_40.setIcon(new ImageIcon(getClass().getResource("/Icones/refresh-arrow_icon-icons.com_53911 (1).png")));
+		
 		label_40.setBounds(443, 93, 39, 37);
 		paneldon.add(label_40);
 		
@@ -1966,7 +1971,7 @@ public class FenBanqueDeSang extends JFrame {
 			
 			}}
 		});
-		label_41.setIcon(new ImageIcon("C:\\Users\\Belinfo\\Bureau\\Amine YK\\Amine YK\\Amine YKh\\amine\\Bloonation Ressources\\phone-volume_icon-icons.com_56474 (1).png"));
+		label_41.setIcon(new ImageIcon(getClass().getResource("/Icones/phone-volume_icon-icons.com_56474 (1).png")));
 		label_41.setBounds(798, 139, 39, 37);
 		paneldon.add(label_41);
 		
@@ -1994,7 +1999,7 @@ public class FenBanqueDeSang extends JFrame {
 			}}
 			
 		});
-		label_43.setIcon(new ImageIcon("C:\\Users\\Belinfo\\Bureau\\Amine YK\\Amine YK\\Amine YKh\\amine\\Bloonation Ressources\\email-envelope-outline-shape-with-rounded-corners_icon-icons.com_56530.png"));
+		label_43.setIcon(new ImageIcon(getClass().getResource("/Icones/email-envelope-outline-shape-with-rounded-corners_icon-icons.com_56530.png")));
 		label_43.setBounds(600, 142, 39, 37);
 		paneldon.add(label_43);
 		
@@ -2005,12 +2010,12 @@ public class FenBanqueDeSang extends JFrame {
 				actualiserNPPP();
 			}
 		});
-		label_46.setIcon(new ImageIcon("C:\\Users\\Belinfo\\Bureau\\Amine YK\\Amine YK\\Amine YKh\\amine\\Bloonation Ressources\\refresh-arrow_icon-icons.com_53911 (1).png"));
+		label_46.setIcon(new ImageIcon(getClass().getResource("/Icones/refresh-arrow_icon-icons.com_53911 (1).png")));
 		label_46.setBounds(10, 277, 39, 37);
 		paneldon.add(label_46);
 		
 		JLabel label_7 = new JLabel("");
-		label_7.setIcon(new ImageIcon("C:\\Users\\Belinfo\\Bureau\\Amine YK\\Amine YK\\Amine YKh\\amine\\Bloonation Ressources\\12.png"));
+		label_7.setIcon(new ImageIcon(getClass().getResource("/Icones/12.png")));
 		label_7.setBounds(-22, 0, 886, 421);
 		paneldon.add(label_7);
 		remplirdonn1();
