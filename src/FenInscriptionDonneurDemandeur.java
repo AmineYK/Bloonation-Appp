@@ -85,7 +85,7 @@ public class FenInscriptionDonneurDemandeur extends JFrame {
 		super.setUndecorated(true);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
-		ImageIcon obj1 = new ImageIcon("C:\\Users\\Belinfo\\Bureau\\Amine YK\\Amine YK\\Amine YKh\\amine\\Bloonation Ressources\\transfuse_38039.png");
+		ImageIcon obj1 = new ImageIcon(getClass().getResource("/Icones/transfuse_38039.png"));
 		super.setIconImage(obj1.getImage());
 
 		setContentPane(contentPane);
@@ -101,7 +101,7 @@ public class FenInscriptionDonneurDemandeur extends JFrame {
 		contentPane.add(panel);
 		
 		JLabel label_3 = new JLabel("");
-		label_3.setIcon(new ImageIcon("C:\\Users\\Belinfo\\Bureau\\Amine YK\\Amine YK\\Amine YKh\\amine\\Bloonation Ressources\\Patient_Male_icon-icons.com_75053.png"));
+		label_3.setIcon(new ImageIcon(getClass().getResource("/Icones/Patient_Male_icon-icons.com_75053.png")));
 		label_3.setBounds(7, 2, 46, 49);
 		contentPane.add(label_3);
 		
@@ -483,16 +483,17 @@ public class FenInscriptionDonneurDemandeur extends JFrame {
 				dispose();
 			}
 		});
-		label_9.setIcon(new ImageIcon("C:\\Users\\Belinfo\\Bureau\\Amine YK\\Amine YK\\Amine YKh\\amine\\Bloonation Ressources\\arrow-address-back_icon-icons.com_54065.png"));
+		label_9.setIcon(new ImageIcon(getClass().getResource("/Icones/arrow-address-back_icon-icons.com_54065.png")));
 		label_9.setBounds(9, 67, 59, 39);
 		contentPane.add(label_9);
 		JLabel label_a = new JLabel("");
-		label_a.setIcon(new ImageIcon("C:\\Users\\m2k\\Desktop\\Amine YKh\\amine\\Travaux \u00E0 faire\\PROJET TP GL2\\5.png"));
+		label_a.setIcon(new ImageIcon(getClass().getResource("/Icones/5.png")));
+		
 		label_a.setBounds(-13, 0, 605, 400);
 		contentPane.add(label_a);
 		
 		JLabel label = new JLabel("");
-		label.setIcon(new ImageIcon("C:\\Users\\Belinfo\\Bureau\\Amine YK\\Amine YK\\Amine YKh\\amine\\Bloonation Ressources\\2.png"));
+		label.setIcon(new ImageIcon(getClass().getResource("/Icones/2.png")));
 		label.setBounds(-11, -13, 450, 641);
 		contentPane.add(label);
 
